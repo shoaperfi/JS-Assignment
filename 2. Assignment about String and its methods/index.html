@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2. Assignment about String and its methods</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+      <div class="container">
+        <h1>Details</h1>
+        <form>
+          <div>
+            <label class="firstNameInput">First Name : </label>
+            <input type="text" id="firstName" placeholder=" Enter first name" required/>
+          </div>
+
+          <div>
+            <label class="lastNameInput">Last Name : </label>
+            <input type="text" id="lastName" placeholder=" Enter last name" required/>
+          </div>
+
+          <div>
+            <label  for="email" class="emailInput">Email-id : </label>
+            <input type="email" name="email" id="email" placeholder="Enter email" required/>
+          </div>
+
+          <div>
+            <label class="ageInput">Age : </label>
+            <input type="number"  id="age" placeholder=" Enter age" required/>
+          </div>
+        
+          </form>
+          <button type="submit" class="btn" onclick="submit()">SUBMIT</button>
+
+          <div class="output">
+            <h3>Output:</h3>
+            <div>First name: <span id="firstNameOutput"></span></div>
+            <div>Last name: <span id="lastNameOutput"></span></div> 
+            <div>Email-id: <span id="emailIdOutput"></span></div>
+            <div id="ageOutput" style="font-weight: bold;"></div>
+          </div>
+      </div>
+    
+    <script type="text/javascript" src="./script/script.js"></script>
+  </body>
+</html>

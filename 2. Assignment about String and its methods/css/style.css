@@ -1,0 +1,36 @@
+input {
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+label {
+  font-size: 24px;
+}
+.output {
+  margin-top: 40px;
+}
+.btn {
+  background-color: black;
+  border-radius: 20px;
+  font-size: 20px;
+}
+button {
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: grey;
+  color: white;
+}
+.emailInput {
+  margin-right: 30px;
+}
+
+.firstNameInput {
+  margin-right: 12px;
+}
+
+.lastNameInput {
+  margin-right: 14px;
+}
+.ageInput {
+  margin-right: 68px;
+}
